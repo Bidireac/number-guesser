@@ -1,0 +1,213 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* #4B9574 */
+/* #CC7D88 */
+/* #0E0C0A */
+/* #E0886C */
+
+i {
+	color: #690e16;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(120deg, #83806d, #d88771);
+	color: #0e0c0a;
+}
+
+.container {
+	width: 50%;
+	height: 85%;
+}
+
+hr {
+	width: 50%;
+	margin: 20px;
+	align-self: center;
+	border: 1px solid #f55358;
+}
+
+.diceGame {
+	height: 25vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.diceDisplay {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.dices {
+	height: 200px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-align: center;
+}
+
+.showDiceResult {
+	text-align: center;
+	font-size: 35px;
+	height: 200px;
+	width: 100%;
+}
+
+#roll {
+	width: 30%;
+	height: 100px;
+	width: 25%;
+	border: none;
+	border-radius: 20px;
+	font-size: 40px;
+	align-self: center;
+	margin-right: 30px;
+	cursor: pointer;
+	outline: none;
+	border: 1px solid black;
+	border-radius: 60px;
+	box-shadow: 0px 10px 30px #f55358;
+	background-color: transparent;
+}
+
+.dicesDiv {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 33.3%;
+	text-align: center;
+	font-size: 30px;
+	padding: 15px;
+}
+
+.PC {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.dices .numberOfTries {
+	font-size: 40px;
+	font-weight: 900;
+	margin-right: -40px;
+}
+
+.dices > div {
+	display: flex;
+}
+
+#you p {
+	padding: 20px;
+}
+
+#computer {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+img {
+	width: 50px;
+	height: 50px;
+}
+
+.instructions {
+	height: 35vh;
+	font-size: 30px;
+	padding: 15px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	text-shadow: 5px 5px 30px #f55358;
+}
+
+.numberDisplay {
+	height: 15vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 35px;
+	font-weight: 900;
+}
+
+.arrows {
+	height: 15vh;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.lower,
+.greater {
+	font-size: 70px;
+	cursor: pointer;
+	outline: none;
+	background-color: transparent;
+	border: none;
+}
+
+.arrows .playAgain {
+	width: 250px;
+	height: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	border-radius: 60px;
+	box-shadow: 0px 10px 30px #f55358;
+}
+
+.arrows .playAgain a {
+	font-size: 30px;
+	font-weight: 900;
+	text-decoration: none;
+	color: #0e0c0a;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 60px;
+}
+
+.looser {
+	border-radius: 20%;
+	background: rgba(245, 83, 88, 0.4);
+	box-shadow: 0px 10px 30px #f55358;
+}
+
+.winner {
+	border-radius: 20%;
+	background: rgba(103, 182, 127, 0.4);
+	box-shadow: 0px 10px 30px #67b67f;
+}
+
+.nrTries {
+	color: #67b67f;
+	font-size: 50px;
+}
+
+.win {
+	color: #67b67f;
+}
+
+.loose {
+	color: #c53136;
+}
+
+.end {
+	color: #690e16;
+}

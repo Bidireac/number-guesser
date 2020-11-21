@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>Number Guesser Game</title>
+</head>
+<body>
+    <div class="container">
+        <div class="diceGame">
+            <div class="diceDisplay">
+                <div class="showDiceResult">Roll The Dice To Start The Game</div>
+                <hr>
+                <div class="dices">
+                    <div class="dicesDiv">
+                        <p>You</p>
+                        <span id="you"></span>
+                    </div>
+                    <div class="numberOfTries dicesDiv"></div>
+                    <div class="dicesDiv PC">
+                        <p>Computer</p>
+                        <span id="computer"></span>
+                    </div>
+                </div>
+                <button id="roll"><i class="fas fa-dice"></i></button>
+            </div>
+        </div>
+        <div class="instructions"><p>In order to play this game, first you'll have to roll the dice. If you win the first round, you get more tries, 30 to be precisely, and 15 if you lose. Your number of tries is randomly generated. After that, you can adjust your number guesser by using the arrows, left or right (keyboard included), to increase or decrease the number from your last guess.</p>
+        </div>
+        <div class="numberDisplay">
+            <span class="triesLeft"></span>
+            <span class="displayMessage"></span>
+        </div>
+        <div class="arrows">
+            <button class="lower"><i class="fas fa-caret-square-left"></i></button>
+            <div class="playAgain"><a href="">Play Again <i class="fas fa-retweet"></i></a></div>
+            <button class="greater"><i class="fas fa-caret-square-right"></i></button>
+        </div>
+    </div>
+    <script src="variableDeclaration.js"></script>
+    <script src="randomNumber.js"></script>
+    <script src="dicesRoll.js"></script>
+</body>
+</html>
