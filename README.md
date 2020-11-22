@@ -20,7 +20,7 @@ Project is created with:
 ## Setup
 To run this project, open the index.html file.
 
-![demo](/demo/numberGuesser.gif)
+![demo](/demo/numGuess.gif)
 
 ## Status
 Project is:  _finished
